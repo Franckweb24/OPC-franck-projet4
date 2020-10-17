@@ -9,6 +9,7 @@ body {
   /*-------------------------------------------------------*/
 .text-center {
     font-size: 20px;
+    padding-top: 8px;
 }
 
 .nav-contact {
@@ -39,10 +40,30 @@ body {
     margin: auto;
 }
 
-
 .ltc-white:hover {
     font-size: 24px;
 }
+
+.li-partenaires {
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+#part {
+    font-size: 22px;
+}
+
+.lien-partenaires {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    margin-right: 40px;
+}
+
+
 
 /*---------------------------------------------------------*/
 a,
