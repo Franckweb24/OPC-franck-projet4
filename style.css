@@ -51,7 +51,7 @@ body {
 }
 
 #part {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .lien-partenaires {
@@ -192,7 +192,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 6);
 }
 
 .d-bloc .a-btn:hover,
@@ -825,12 +825,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #757575;
     color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #CB4B10;
+    background: #F3976C;
     color: #FFFFFF;
 }
 
