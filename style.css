@@ -48,6 +48,7 @@ body {
     margin: auto;
     text-align: center;
     font-size: 18px;
+    padding-top: 20px;
 }
 
 #part {
@@ -817,7 +818,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #F48D5D;
 }
 
 .tc-white {
