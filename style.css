@@ -47,7 +47,6 @@ body {
 .li-partenaires {
     margin: auto;
     text-align: center;
-    font-size: 18px;
     padding-top: 20px;
 }
 
@@ -62,6 +61,7 @@ body {
 ul {
    list-style: none;
    margin-right: 40px;
+
 }
 
 
@@ -768,7 +768,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .portfolio-thumb {
@@ -803,7 +803,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #FF9061;
+    background-color: rgba(165, 147, 99, 0.7);
 }
 
 .tc-white {
