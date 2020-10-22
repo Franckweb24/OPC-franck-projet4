@@ -71,8 +71,22 @@ ul {
    margin-right: 40px;
 
 }
+/*--------------------------page-contact-------------------*/
 
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 20px;
+}
 
+.underline {
+    text-decoration: none;
+}
+
+.col-sm-12 {
+    text-align: center;
+}
 
 /*---------------------------------------------------------*/
 a,
@@ -691,6 +705,7 @@ a {
     font-family: "helvetica";
     font-weight: 500;
     color: #575757;
+    cursor: pointer;
 }
 
 .container {
@@ -736,6 +751,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+
 }
 
 .social {
@@ -821,6 +837,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #757575;
     color: #FFFFFF;
+    border-radius: 30px;
 }
 
 .btn-atomic-tangerine:hover {
