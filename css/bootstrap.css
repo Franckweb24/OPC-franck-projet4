@@ -3712,7 +3712,7 @@ fieldset[disabled] .btn {
 
 a.btn.disabled,
 fieldset[disabled] a.btn {
-
+    pointer-events: none
 }
 
 .btn-default {
