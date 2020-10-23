@@ -27,7 +27,7 @@ body {
 }
 
 .icon-chouette {
-   padding-left: 20px;    
+   padding-left: 20px;
 }
 
 .lien-page2 {
@@ -87,6 +87,7 @@ ul {
 .col-sm-12 {
     text-align: center;
 }
+
 
 /*---------------------------------------------------------*/
 a,
@@ -797,6 +798,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin: auto;
 }
 
 .portfolio-row {
@@ -914,16 +916,17 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+
 }
 
 @media (max-width: 991px) {
 
     /*--------------------------------------------------------*/
 
+
     .space-li {
         padding-right: 25px;
     }
-
 
     .nav-contact {
         display: flex;
@@ -933,11 +936,13 @@ h4 {
     .lien-page2 {
         padding-top: 20px;
         padding-bottom: 20px;
+        margin: auto;
     }
 
     .icon-chouette {
         margin: auto;
         margin-top: 20px;
+        padding-left: 10px;
     }
 
 
@@ -1102,11 +1107,24 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
+/*-----------------------------------------------*/
+
+    .lien-page2 {
+        padding-right: 15px;
+    }
+
+    .form-group {
+        margin: auto;
+        width: 100%;
+    }
+
+/*------------------------------------------------*/
+
 }
 
 @media (max-width: 767px) {
@@ -1114,3 +1132,18 @@ h4 {
         text-align: center;
     }
 }
+
+/*----------------------media------------------------*/
+
+@media (max-width: 290px) {
+    .lien-page2 {
+        margin-right: 10px;
+    }
+
+    .icon-chouette {
+        padding-right: 10px;
+    }
+}
+
+
+/*----------------------------------------------------*/
