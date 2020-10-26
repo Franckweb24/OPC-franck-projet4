@@ -64,13 +64,16 @@ body {
 
 .lien-partenaires {
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 ul {
    list-style: none;
    margin-right: 40px;
-
 }
+
+
+
 /*--------------------------page-contact-------------------*/
 
 .form-group {
@@ -88,6 +91,9 @@ ul {
     text-align: center;
 }
 
+#underline {
+    text-decoration: none;
+}
 
 /*---------------------------------------------------------*/
 a,
@@ -706,7 +712,7 @@ a {
     font-family: "helvetica";
     font-weight: 500;
     color: #575757;
-    cursor: pointer;
+
 }
 
 .container {
@@ -840,6 +846,7 @@ h4 {
     background: #757575;
     color: #FFFFFF;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .btn-atomic-tangerine:hover {
