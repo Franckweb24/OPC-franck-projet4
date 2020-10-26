@@ -28,6 +28,10 @@ body {
 
 .icon-chouette {
    padding-left: 20px;
+   min-width: 1%;
+   max-width: 100%;
+   min-height: 1%;
+   max-height: 50%;
 }
 
 .lien-page2 {
