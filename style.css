@@ -27,12 +27,16 @@ body {
 
 .nav-contact {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 
 .icon-chouette {
    padding-left: 20px;
+   padding-top: 20px;
+}
+
+.img-bannier {
+    max-width: 220px;
 }
 
 .lien-page2 {
