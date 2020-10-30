@@ -9,7 +9,12 @@ body {
   /*-------------------------------------------------------*/
 .text-center {
     font-size: 18px;
-    padding-top: 8px;
+    padding-top: 20px;
+}
+
+#h2-width {
+    max-width: 70%;
+    margin: auto;
 }
 
 #italic {
@@ -79,7 +84,7 @@ ul {
 .form-group {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 50%;
     margin-bottom: 20px;
 }
 
@@ -91,8 +96,13 @@ ul {
     text-align: center;
 }
 
-#underline {
-    text-decoration: none;
+#adresse {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-sm-6 {
+    margin-top: 20px;
 }
 
 /*---------------------------------------------------------*/
@@ -498,7 +508,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .mg-lg {
@@ -716,7 +726,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    margin: auto;
 }
 
 .hero-bloc-text {
@@ -847,11 +857,13 @@ h4 {
     color: #FFFFFF;
     border-radius: 30px;
     cursor: pointer;
+    padding-bottom: 8px;
+    max-width: 150px;
 }
 
 .btn-atomic-tangerine:hover {
     background: #F3976C;
-    color: #FFFFFF;
+    color: #FFFFFF!important;
 }
 
 .ltc-white {
@@ -859,7 +871,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 .ltc-atomic-tangerine {
