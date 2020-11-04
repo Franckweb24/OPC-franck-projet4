@@ -109,6 +109,10 @@ ul {
     margin-top: 20px;
 }
 
+#container-contact {
+    margin-left: 0px;
+}
+
 /*---------------------------------------------------------*/
 a,
 button {
@@ -148,7 +152,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 100px 100px;
 }
 
 .bloc-md {
